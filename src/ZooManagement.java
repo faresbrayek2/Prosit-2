@@ -3,11 +3,11 @@ public class ZooManagement {
     public static void main(String[] args) {
 
         Animal lion = new Animal("Félin", "Lion", 5, true);
-        Animal eagle = new Animal("Phasianidae", "Chicken", 2, true);
+        Animal Chicken = new Animal("Phasianidae", "Chicken", 2, true);
 
         Zoo myZoo = new Zoo("Mon Zoo", "Ma Ville", 10);
         myZoo.addAnimal(lion);
-        myZoo.addAnimal(eagle);
+        myZoo.addAnimal(Chicken);
         myZoo.displayZoo();
 
         System.out.println("\nAnimaux au zoo :");
